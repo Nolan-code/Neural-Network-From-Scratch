@@ -2,7 +2,7 @@
 
 ## Project description
 
-First implementation of NN from scratch (without any Deep learning framework such as Pytorch) to predict the Iris variety based on physical aspects features. This project includes model training, data cleaning and comprehensive visualization. The goal of the manual implementation is to deepen my understanding of NN.
+First implementation of NN from scratch (without any Deep learning framework such as Pytorch) to predict the Iris variety based on physical aspects features. This project includes model training, data cleaning and clear visualization. The goal of the manual implementation is to deepen my understanding of NN.
 It was also made to demonstrate my understanding of:
 - Forward propagation
 - Backward propagation
