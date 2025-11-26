@@ -41,5 +41,5 @@ Parameters dimensions:
 
 ## Results
 - Get an accuracy of 96.67% at the end of the optimization of the weight and bias.
-Here is the loss curve:
+- Here is the loss curve:
 figures/losses.png
