@@ -4,12 +4,12 @@
 
 First implementation of NN from scratch (without any Deep learning framework such as Pytorch) to predict the Iris variety based on physical aspects features. This project includes model training, data cleaning and comprehensive visualization. The goal of the manual implementation is to deepen my understanding of NN.
 It was also made to demonstrate my understanding of:
-- Fordward propagation
+- Forward propagation
 - Backward propagation
 - Gradient derivation
 - Softmax and cross-entropy loss for multi-classification
 - Training with gradient descent
-- Features normalization and data spliting
+- Features normalization and data splitting
 
 ## Model Architecture
 Input (n_features)
@@ -33,9 +33,9 @@ Parameters dimensions:
 ## Key Features
 - Fully manual implementation(forward + backward propagation)
 - gradient calculation using matrix calculus
-- Multi-class softmax + cross entropy
+- Multi-class softmax + cross-entropy
 - Features normalization
-- Train/Validation/Test data spliting
+- Train/Validation/Test data splitting
 - Accuracy computation
 - Only numpy framework
 
@@ -47,7 +47,7 @@ Parameters dimensions:
 - Matplotlib
 - Pandas
 
-## Instalation
+## Installation
 git clone https://github.com/Nolan-code/neural-network-from-scratch.git
 cd neural-network-from-scratch
 pip install -r requirements.txt
@@ -98,11 +98,11 @@ print("Test accuracy:", test_acc)
 
 ## Performance
 - Validation accuracy 99.33%
-- Test ccuracy 99.67%
+- Test accuracy 99.67%
 
 ## Possible improvements
 - Add dropout
 - Implement a third layer
-- Use mini batch method to reduce training time 
+- Use mini-batch method to reduce training time 
 
 
