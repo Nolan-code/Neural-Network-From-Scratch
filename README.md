@@ -97,8 +97,8 @@ print("Test accuracy:", test_acc)
 - Building a small but clean ML training pipeline from scratch
 
 ## Performance
-- Validation accuracy 99.33%
-- Test accuracy 99.67%
+- Validation accuracy 93.33%
+- Test accuracy 96.67%
 
 ## Possible improvements
 - Add dropout
