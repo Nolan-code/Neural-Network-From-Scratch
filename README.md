@@ -42,4 +42,4 @@ Parameters dimensions:
 ## Results
 - Get an accuracy of 96.67% at the end of the optimization of the weight and bias.
 - Here is the loss curve:
-Figures/NN_manual_implementation_loss_curve.png
+![Loss Curve](Figures/NN_manual_implementation_loss_curve.png)
