@@ -49,7 +49,7 @@ Parameters dimensions:
 - Pandas
 
 ## Instalation
-git clone https://github.com/<Nolan-code>/neural-network-from-scratch.git
+git clone https://github.com/Nolan-code/neural-network-from-scratch.git
 cd neural-network-from-scratch
 pip install -r requirements.txt
 
