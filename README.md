@@ -6,10 +6,10 @@ First implementation of NN from scratch (without any Deep learning framework suc
 It was also made to demonstrate my understanding of:
 - Fordward propagation
 - Backward propagation
-- gradient derivation
-- softmax and cross-entropy loss for multi-classification
-- training with gradient descent
-- features normalization and data spliting
+- Gradient derivation
+- Softmax and cross-entropy loss for multi-classification
+- Training with gradient descent
+- Features normalization and data spliting
 
 ## Model Architecture
 Input (n_features)
@@ -39,8 +39,7 @@ Parameters dimensions:
 - Accuracy computation
 - Only numpy framework
 
-## Results
-- Get an accuracy of 96.67% at the end of the optimization of the weight and bias.
+## Loss curve
 ![Loss Curve](Figures/NN_manual_implementation_loss.png)
 
 ## Required package
@@ -89,5 +88,21 @@ print("Test accuracy:", test_acc)
 
 - dW1 = X.T @ dZ1
 - db1 = sum(dZ1)
+
+## What I learned
+- Deriving gradients step by step
+- How back propagation work
+- Implementing vectorized operations and managing matrix dimensions
+- Diagnosing overfitting using a validation set
+- Building a small but clean ML training pipeline from scratch
+
+## Performance
+- Validation accuracy 99.33%
+- Test ccuracy 99.67%
+
+## Possible improvements
+- Add dropout
+- Implement a third layer
+- Use mini batch method to reduce training time 
 
 
