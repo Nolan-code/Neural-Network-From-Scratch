@@ -40,6 +40,6 @@ Parameters dimensions:
 - Only numpy framework
 
 ## Results
-- Get an accuracy of 96.67% at the end of the optimization of the weight and bias
+- Get an accuracy of 96.67% at the end of the optimization of the weight and bias.
 Here is the loss curve:
 figures/losses.png
