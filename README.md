@@ -69,7 +69,7 @@ print("Validation accuracy:", val_acc)
 print("Test accuracy:", test_acc)
 
 ## The math
-# Forward propagation
+### Forward propagation
 - 1st layer:
 - Z1 = X W1 + b1
 - A1 = ReLU(Z1)
@@ -78,7 +78,7 @@ print("Test accuracy:", test_acc)
 - Z2 = A1 W2 + b2
 - Ŷ  = softmax(Z2)
 
-# Backward propagation
+### Backward propagation
 - dZ2 = (A2 - Y_onehot) / N
 - dW2 = A1.T @ dZ2
 - db2 = sum(dZ2)
