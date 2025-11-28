@@ -47,27 +47,6 @@ Parameters dimensions:
 - Matplotlib
 - Pandas
 
-## Installation
-git clone https://github.com/Nolan-code/neural-network-from-scratch.git
-cd neural-network-from-scratch
-pip install -r requirements.txt
-
-## Usage example
-from src.neural_network import NN
-import pandas as pd
-
-df = pd.read_csv("data/dataset.csv")
-
-val_acc, test_acc, losses = NN(
-    df,
-    n_iters=2000,
-    lr=0.01,
-    target_name="label"
-)
-
-print("Validation accuracy:", val_acc)
-print("Test accuracy:", test_acc)
-
 ## The math
 ### Forward propagation
 - 1st layer:
